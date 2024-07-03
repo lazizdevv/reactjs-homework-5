@@ -11,7 +11,6 @@ export const Footer = () => {
           <p className="text-sm mt-2">info@example.com</p>
           <p className="text-sm">123-456-7890</p>
         </div>
-        
       </div>
     </footer>
   );
