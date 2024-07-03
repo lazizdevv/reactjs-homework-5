@@ -16,13 +16,13 @@ export const Users = () => {
   }, []);
 
   return (
-    <div className="container">
-      <h1 className='text-center text-2xl font-bold bg-gray-500 text-white p-4'>User List:</h1>
+    <div className="container my-10">
+      <h1 className='text-center text-2xl font-bold bg-gray-300 p-4'>User List:</h1>
       <div className="user-list">
         {users.map((user) => (
           <Link key={user.id} to={`/users/${user.id}`}>
-              <div className="user-card  flex  justify-around flex-wrap bg-gray-300">
-              <h2 className="user-name   text-xl font-extrabold text-center p-3 bg-gray-300 w-full border hover:bg-slate-400 hover:text-white">{user.name}</h2>
+              <div className="user-card  flex  justify-around flex-wrap ">
+              <h2 className="user-name border border-gray-400 text-xl font-extrabold text-center p-3 bg-gray-200 w-full hover:bg-gray-400 hover:text-white">{user.name}</h2>
             </div>
             
           </Link>
