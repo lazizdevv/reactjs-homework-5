@@ -1,7 +1,7 @@
 export const Home = () => {
     return(
         <div className="container bg-gray-100  flex items-center justify-center  ">
-      <div className="max-w-4xl bg-white p-8 rounded-lg shadow-xl">
+      <div className=" bg-white p-8 rounded-lg shadow-xl">
         <h1 className="text-4xl font-bold mb-4 text-center">Welcome to My Website</h1>
         <p className="text-lg text-gray-700 mb-8 text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget justo nec nisi fermentum ultricies.
